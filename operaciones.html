@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Programacion Web</h1>
+    </header>
+    <h2>Suma dos numeros</h2>
+    <form action="">
+        <label for="numero1">Ingresa el primer nummero</label>
+        <input type="number" id="numero1"required>
+        <label for="numero2">Ingresa el segundo nummero</label>
+        <input type="number" id="numero2"required>
+    </form>
+    <section>
+        <button type="button" onclick="realizarSuma()">Sumar</button>
+        <button type="button" onclick="realizarResta()">Restar</button>
+        <button type="button" onclick="realizarMultiplicacion()">Multiplicacion</button>
+        <button type="button" onclick="realizarDivision()">Division</button>
+    </section>
+    <section>
+        <h2>El resultado de la suma es: </h2>
+        <p id="resultado">--</p>
+    </section>
+    
+    <script src="suma.js"></script>
+</body>
+</html>
