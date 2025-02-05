@@ -27,7 +27,7 @@ function realizarResta() {
 }
 
 // Función para realizar la multiplicacion
-function realizarMultiplicacion() {
+function realizarmulti() {
     const numero1 = parseFloat(document.getElementById("numero1").value);
     const numero2 = parseFloat(document.getElementById("numero2").value);
 
@@ -41,7 +41,7 @@ function realizarMultiplicacion() {
 }
 
 // Función para realizar la divicion
-function realizarDivision() {
+function realizarDivi() {
     const numero1 = parseFloat(document.getElementById("numero1").value);
     const numero2 = parseFloat(document.getElementById("numero2").value);
 

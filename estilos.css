@@ -1,72 +1,104 @@
-body{
-    font-family: 'Arial', 'sans-serif';
+/* estilos.css */
+
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: #333;
+    background-color: #c6d7d1;
 }
-main{
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #9ce7dd, #0091a7);
+    color: white;
+}
+
+.encabezado h1 {
+    font-size: 2em;
+    margin: 0;
+}
+.encabezado h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+main {
     flex: 1;
     padding: 20px;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 }
 
-header{
-    text-align: center;
-    color: black;
-    background: linear-gradient(to right, rgb(255, 255, 255));
-    padding: 20px 10px;
-}
-.encabezado {
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgb(160, 149, 255);
-    border-radius: 8px;
-}
-section{
+section {
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 50px;
-    background-color:  rgb(160, 149, 255);
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 8px;
-    box-shadow: 0 2px 5 px rgba(0, 0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 255, 255, 0.553);
 }
-footer{
+
+
+section h2 {
+    margin-bottom: 15px;
+    color: #44b9a9;
+    border-bottom: 2px solid #44b9a9;
+    display: inline-block;
+}
+
+.experiencia-item h3 {
+    margin: 10px 0 5px;
+    color: #44b9a9;
+}
+
+footer {
     text-align: center;
-    background-color: black;
-    color: aliceblue;
-    padding: 10px 0;
+    padding: 10px;
+    background: linear-gradient(to right, #9ce7dd, #0091a7);
+    color: rgb(0, 0, 0);
     font-size: 0.9em;
 }
-.habilidades{
-    margin-bottom: 22px;
-    padding: 10px;
-    background-color: azure;
-    border: 11px solid #0d0d0d;
-    border-radius: 10px;
-    box-shadow: 0 2px 5 px rgba(0, 0, 0, 0);
-}
-.foto{
+
+.habilidades {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    background: linear-gradient(to right black, white);
-    border: 2px solid black;
-    overflow: hidden;
-    margin-right: 20px;
-    vertical-align:middle;
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #44b9a9;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
 }
-.fotos img {
-    width: 10%;
-    height: 10%;
-    object-fit: cover; /* Ajusta la imagen al tamaño del contenedor redondo */
-}
-button{
-    color: black;
-    background-color:  rgb(160, 149, 255);
-    text-align: center;
-}
+.fotos {
+    display: inline-block;
+    width: 120px; /* Tamaño ajustable */
+    height: 120px;
+    background: linear-gradient(to right, #9ce7dd, #0091a7);
+    border: 2px solid #000000; /* Borde de la foto */
+    border-radius: 150%; /* Hace la imagen redonda */
+    overflow: hidden; /* Asegura que la imagen no se desborde */
+    margin-right: 20px; /* Espaciado entre la foto y el texto */
+    vertical-align: middle;
+    }
+    .fotos img {
+        width: 110%;
+        height: 100%;
+        object-fit: cover; /* Ajusta la imagen al tamaño del contenedor redondo */
+    }
+    button
+    {
+        background-color: #8ddbd3;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 0.5em;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+    }
+
+    
+    
+   
+   
